@@ -1,1 +1,19 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Custom FPS & CPS Counter UI",
+    "name": "FPS & CPS Counter HUD",
+    "uuid": "4eabda32-51df-4271-a7a8-e8c8d4b5f816",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "description": "UI adjustments for performance stats",
+      "type": "resources",
+      "uuid": "PUT_YOUR_SECOND_UUID_HERE",
+      "version": [1, 0, 0]
+    }
+  ]
+}
 
