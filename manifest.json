@@ -11,9 +11,8 @@
     {
       "description": "UI adjustments for performance stats",
       "type": "resources",
-      "uuid": "PUT_YOUR_SECOND_UUID_HERE",
+      "uuid": "b3d5fa61-8ce2-4b73-bc12-f74de83d98a2",
       "version": [1, 0, 0]
     }
   ]
 }
-
