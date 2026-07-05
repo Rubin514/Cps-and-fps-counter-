@@ -1,6 +1,6 @@
 {
   "namespace": "hud",
-  
+
   "cps_fps_panel": {
     "type": "panel",
     "anchor_from": "top_left",
@@ -12,9 +12,22 @@
         "counter_text": {
           "type": "label",
           "color": [1.0, 1.0, 1.0],
-          "text": "FPS: [Can tie to profiling text]\nCPS: 0",
+          "text": "FPS: 60\nCPS: 0",
           "shadow": true,
           "font_size": "normal"
+        }
+      }
+    ]
+  },
+
+  // This forces Minecraft to inject your panel into the actual game HUD
+  "root_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_back",
+        "value": {
+          "cps_fps_panel@hud.cps_fps_panel": {}
         }
       }
     ]
